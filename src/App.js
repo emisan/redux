@@ -6,6 +6,7 @@ import IncreaseCounterByTwo from './components/IncreaseCounterByTwo';
 import DecreaseCounter from './components/DecreaseCounter';
 import Counter from './components/Counter';
 import ResetCounter from './components/ResetCounter';
+import Calculator from './components/calculator/Calculator';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         <IncreaseCounterByTwo/>
         <DecreaseCounter/>
         <ResetCounter/>
+      </div>
+      <div>
+        <Calculator/>
       </div>
     </div>
   );
